@@ -3,7 +3,7 @@ function Nav()
 {
     return(
       <Router>
-        <nav className="navbar" style={{ backgroundColor: "black" }}>
+        <nav className="navbar bg-warning" >
             <Link style={{fontFamily:"Agbalumo"}} to="/" class="navbar-brand mx-3">
               <a style={{ color: "white" }}>
           <a style={{ color: "orangered" }}>PET </a>Lovers
