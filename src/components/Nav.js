@@ -1,15 +1,12 @@
-import {BrowserRouter as Router,Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 function Nav()
 {
     return(
-      <Router>
-        <nav className="navbar bg-warning" >
-            <Link style={{fontFamily:"Agbalumo"}} to="/" class="navbar-brand mx-3">
-              <a style={{ color: "white" }}>
-          <a style={{ color: "orangered" }}>PET </a>Lovers
-        </a></Link>
+        <nav class="navbar bg-warning">
+            <Link style={{fontFamily:"Agbalumo"}} to="/" class="navbar-brand mx-3">PET LOVERS</Link>
+            <div class="nav">
+            </div>
         </nav>
-        </Router>
-    );
+    )
 }
 export default Nav;
